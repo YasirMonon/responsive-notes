@@ -56,7 +56,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(../images/home-bg-img.png) no-repeat;
+    background:url(./images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
