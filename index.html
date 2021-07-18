@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development - Short Notes</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>ওয়েব ডেভেলপার হয়তো হয়ে যাবো, <br><span>বেলা শুনছো ??</span></h3>
+            <p>মজা করে লিখেছি কথাটা... <br> কিন্তু আমার এই প্রজেক্টে একটা &#9733 (স্টার) কি দেওয়া যায় ?
+            </p>
+            <a target="_blank" href="https://www.github.com/YasirMonon" class="btn">আমার গিট-হাব</a>
+        </div>
+
+        <div class="image">
+            <img src="images/home-img.svg" alt="">
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+
+    <section class="features" id="features">
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/f-icon2.png" alt="">
+                <h3>শর্ট নোটস ডাউনলোড সেকশন</h3>
+                <p>আমাদেরকে প্রতিদিনের যে শর্টনোট গুলো নিজেদের মতো করতে বলা হয়েছিল , সেখান থেকে কিছু ডেমো ফাইল আমি
+                    পিডিএফ আকারে এখানে দিয়ে দিচ্ছি ... ড্রপডাউন সিলেকশন ব্যবহার করে ফাইল ডাউনলোড করা যায় কিনা দেখার
+                    জন্য..</p>
+                <div class="download-box">
+                    <form onsubmit="this.action = document.getElementById('filename').value">
+                        <select id="filename" class="form-design">
+                            <!-- <option class="option-text" value=""> -- Select Your Desired file -- </option> -->
+                            <option class="option-text" value=""> -- যেকোনও একটি সিলেক্ট করুন -- </option>
+                            <option class="option-text" value="/notes/module-1-milestone-1.pdf">মডিউল ১</option>
+                            <option class="option-text" value="/downloads/file2.pdf">মডিউল ২</option>
+                            <option class="option-text" value="/downloads/file3.pdf">মডিউল ৩</option>
+                            <option class="option-text" value="/downloads/file4.pdf">মডিউল ৪</option>
+                            <option class="option-text" value="/downloads/file5.pdf">মডিউল ৫</option>
+                        </select>
+                        <input type="submit" value="ডাউনলোড" class="btn" />
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- features section ends -->
+
+
+    <!-- footer section starts  -->
+
+    <div class="footer">
+        <h1 class="credit"> &copy; copyright @ 2021 by Yasir Monon </h1>
+    </div>
+
+    <!-- footer section ends -->
+
+</body>
+
+</html>
